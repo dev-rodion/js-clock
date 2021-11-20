@@ -66,6 +66,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* transition: 1s linear; */
 }
 
 .hr::before,
@@ -79,6 +80,7 @@ body {
   z-index: 10;
   border-radius: 6px 6px 0 0;
   transform: translateY(-50%);
+  box-shadow: 0 0 5px #000;
 }
 
 .mn::before {
